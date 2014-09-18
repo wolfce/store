@@ -3,6 +3,7 @@
 <table>
   <thead>
     <tr>
+      <th>Image</th>
       <th>Name</th>
       <th>Quantity in stock</th>
       <th>Price</th>
@@ -15,6 +16,7 @@
   <tbody>
     <% @products.each do |product| %>
       <tr>
+        <td><%= image_tag product.image %></td>
         <td><%= product.name %></td>
         <td><%= product.quantity_in_stock %></td>
         <td><%= product.price %></td>
