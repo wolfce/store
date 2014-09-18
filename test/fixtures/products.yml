@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  name: MyString
+  name: MyString1
   quantity_in_stock: 1
   price: 9.99
 
 two:
-  name: MyString
+  name: MyString2
   quantity_in_stock: 1
   price: 9.99
